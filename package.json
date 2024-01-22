@@ -1,0 +1,26 @@
+{
+  "name": "rat-beach",
+  "displayName": "RAT Beach",
+  "description": "It's just beachy",
+  "version": "0.0.2",
+  "publisher": "41e4",
+  "publisherId": "41e4",
+  "publisherDisplayName": "41e4 Consulting",
+  "license": "MIT",
+  "repository": "https://github.com/41e4/rat-beach",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RAT Beach",
+        "uiTheme": "vs",
+        "path": "./themes/rat-beach.json"
+      }
+    ]
+  }
+}
